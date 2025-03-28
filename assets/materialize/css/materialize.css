@@ -3709,7 +3709,7 @@ table span.badge {
   left: 91.6666666667%;
 }
 
-.row .col.offset-s12 {
+.row .col.offset{
   margin-left: 100%;
 }
 

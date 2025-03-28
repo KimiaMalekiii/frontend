@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>celsius</title>
     <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/materialize/css/materialize-rtl.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/util.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -16,8 +17,8 @@
     <nav>
         <div class="nav-wrapper grey lighten-3 ">
           
-          <a href="#!" class="hide-on-med-and-up brand-logo  teal-text text-darken-3 darken-2-accent-2">user</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons teal-text text-darken-3">menu</i></a>
+          <a href="#!" class="hide-on-med-and-up brand-logo   grey-text darken-2-accent-2">Home</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger grey-text"><i class="material-icons">menu</i></a>
           
           <ul class=" hide-on-med-and-down ">
 
@@ -26,23 +27,22 @@
             <li ><a class="grey-text text-darken-2" href="collapsible.html">Javascript</a></li>
             <li ><a class="grey-text text-darken-2" href="mobile.html">Mobile</a></li>
          
-          </ul>
+        </ul>
         </div>
-    </nav>
+      </nav>
  <!-- end navbare -->
 
-
- <!-- sidenav -->
-    <ul class="sidenav" id="mobile-demo">
+ <!-- sidenave -->
+      <ul class="sidenav" id="mobile-demo">
         
         <li><div class="user-view">
            
-            <div class="background">
-            </div>
+         <div class="background">
+         </div>
 
-            <a><img class="circle" src="/assets/image/profile.jpg" alt="engineer"></a>
-            <a><span class="indigo-text text-darken-4 name">Shahrokh Maleki</span></a>
-            <a><span class="indigo-text text-darken-4 email">malekikimia@gmail.com</span></a>
+          <a href="#user"><img class="circle" src="/assets/image/profile.jpg" alt="engineer"></a>
+          <a href="#name"><span class="indigo-text text-darken-4 name">Shahrokh Maleki</span></a>
+          <a href="#email"><span class="indigo-text text-darken-4 email">malekikimia@gmail.com</span></a>
           
         </div></li>
          
@@ -52,37 +52,24 @@
          
         <li><a class="subheader">page</a></li>
         <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-        <li><a href="/user.html"><i class="fas fa-user"></i>user management</a></li>
-      
+        <li><a href="/user.html"><i class="fas fa-user"></i>user management</a></li>      
+       
     </ul>
- <!-- end sidenav -->
- 
- <!-- add butten -->
- 
- <section id="top_actions_section" class="row  m-t-20">
-
-    <div  class="p-l-20 p-r-20 p-t-20 col s12 m3 l2" >
-        <button class="waves-effect waves-light btn teal darken-3 p-l-20 p-r-20 w-full rounded_pill flex-c">
-            <i class="material-icons">add</i>add user
-        </button>
-    </div>
- 
- <!-- search input -->
-    <div class="row col s12 m9 l8">
-        <div class="input-field col s12 ">
-            <input id="search" type="text" class="validate">
-            <label for="search"><i class="material-icons pos-relative top-7 ">search</i>search</label>
-        </div>
-    </div>
- <!-- end search input -->
-
-  <div class="col l2 hide-on-med-and-down">
-  </div>
-
-
-</section>
-
-   
+ <!-- end sidenave -->
+    
+ <!-- logo -->
+    <section  class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100" >
+     
+      <img src="/assets/image/photo_2025-03-preview (1).png" alt="logo" class="w-full max-w-200 filter_shadow">
+      
+      <a href="https://www.instagram.com/shahrokh_maleki_" class="waves-effect waves-light btn
+       w-full max-w-250 m-t-10 m-b-10 rounded_pill indigo darken-4"><i class="fab fa-instagram"></i> instagram page</a>
+       
+      <a href="/user.html" class="waves-effect waves-light btn w-full max-w-250 m-t-0 m-b-10 
+        rounded_pill indigo darken-4"><i class="fas fa-user"></i> user management</a>
+     
+    </section>
+ <!-- end logo -->
 
     <script src="/assets/materialize/js/materialize.min.js"></script>
      <script src="/assets/js/main.js"></script>
